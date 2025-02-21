@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600430409423",
+    "project_id": "project-navigator-66ae0",
+    "storage_bucket": "project-navigator-66ae0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600430409423:android:2f2f0c87f56b9525f269ba",
+        "android_client_info": {
+          "package_name": "com.example.product_navigator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSpSbT4PRC3PJl8IH2tzmnj5kA6H8o-Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
