@@ -4,13 +4,11 @@ import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../widgets/authenticated_user.dart';
 
-// this class represents the Settings page where users can toggle between dark and light modes
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    // access the AppState to get and update the theme
+  Widget build(BuildContext context) {   
     final appState = Provider.of<AppState>(context);
 
     return Scaffold(
@@ -35,8 +33,7 @@ class SettingsPage extends StatelessWidget {
               value: appState.isDarkMode,
               activeColor: Colors.lightBlue,
               activeTrackColor: Colors.lightBlueAccent,
-              onChanged: (value) {
-                //call method to switch between light and dark mod
+              onChanged: (value) {            
                 appState.toggleTheme();
               },
             ),

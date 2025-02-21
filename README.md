@@ -19,26 +19,20 @@ User Session: After logging in, users gain access to their personalized lists an
 2.2. Product Search
 Search Criteria:
 Name: Search for products by their name (e.g., “iPhone”). This is a required field.
-Producer: Filter search results by the producer's name. This field is optional.
-Make or Model: Filter products by specific makes or models. This is optional.
-Location: Specify a location to find products available in nearby stores. This field is required.
 Search Results: Displays a list of products that match the search criteria, showing product names, producers, models, descriptions and prices from different stores.
 
 2.3. Product Details
 Item Information: Provides detailed descriptions, specifications, user ratings and reviews from the simulated database. Currently, images are not included.
-Store List:
-Stores: Displays stores where the product is available, including store name and location.
+Stores: Displays stores where the product is available.
 Prices: Shows product prices at each store.
 Actions: Allows users to either add the product to a shopping list or cancel and return to search results.
 
 2.4. List Management
-Create New List: Users can create a new shopping list by providing a custom name. When updating, users can choose a specific store, and the prices for that store will apply to all list items, updating them accordingly.
+Create New List: Users can create a new shopping list by providing a custom name. 
 View Existing Lists: Users can view and manage their saved lists.
-Add Item to List: Users can add products to existing lists or create new ones. Available lists are displayed for easy selection.
-List Details: Displays a list of all products in the selected list, including names, quantities and prices. Users can update product quantities, and the price will update automatically.
-By selecting a store, all items in the list will update to reflect the prices at that store.
-The list also displays the total sum of products for the selected store.
-List Management: Users can delete or rename lists. Deleting a list prompts a confirmation.
+Add Item to List: Users can add products to existing lists. Available lists are displayed for easy selection.
+List Details: Displays a list of all products in the selected list, including names, quantities and prices. Users can delete or add a product and the total price will update automatically. The list also displays the total sum of products for the selected list.
+List Management: Users can delete lists. Deleting a list prompts a confirmation.
 
 2.5. Settings Page
 Dark Mode: Provides an option to toggle between light and dark modes for improved user experience based on preferences.
@@ -60,7 +54,7 @@ Flutter: Framework for building the cross-platform mobile app
 Firebase Authentication: Secure authentication for users
 Firebase Firestore: Cloud database for storing and managing products data
 Provider: State management for handling user authentication and search state
-SharedPreferences: For persisting theme 
+SharedPreferences: For persisting theme and list updates
 Flutter Animations: For smooth transitions and animations across the app
 
 *****
