@@ -51,15 +51,15 @@ The homepage and search page (landing page) are responsive in both portrait and 
 Technologies Used
 *****
 Flutter: Framework for building the cross-platform mobile app
-*
+
 Firebase Authentication: Secure authentication for users
-*
+
 Firebase Firestore: Cloud database for storing and managing products data
-*
+
 Provider: State management for handling user authentication and search state
-*
+
 SharedPreferences: For persisting theme and list updates
-*
+
 Flutter Animations: For smooth transitions and animations across the app
 
 *****
